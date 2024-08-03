@@ -1,0 +1,64 @@
+2024-07-30 13:28:11.466 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server jetty-10.0.20; built: 2024-01-29T20:46:45.278Z; git: 3a745c71c23682146f262b99f4ddc4c1bc41630c; jvm 17.0.12+7
+2024-07-30 13:28:11.620 WARN  (main) [c: s: r: x: t:] o.e.j.u.DeprecationWarning Using @Deprecated Class org.eclipse.jetty.servlet.listener.ELContextCleaner
+2024-07-30 13:28:11.636 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2024-07-30 13:28:11.640 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider  ___      _       Welcome to Apache Solr™ version 9.6.1
+2024-07-30 13:28:11.640 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider / __| ___| |_ _   Starting in standalone mode on port 8983
+2024-07-30 13:28:11.640 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider \__ \/ _ \ | '_|  Install dir: /opt/solr-9.6.1
+2024-07-30 13:28:11.640 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider |___/\___/_|_|    Start time: 2024-07-30T13:28:11.640480096Z
+2024-07-30 13:28:11.641 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr started with "-XX:+CrashOnOutOfMemoryError" that will crash on any OutOfMemoryError exception. The cause of the OOME will be logged in the crash file at the following path: /var/solr/logs/jvm_crash_11.log
+2024-07-30 13:28:11.655 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr Home: /var/solr/data (source: system property: solr.solr.home)
+2024-07-30 13:28:11.662 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig solr.xml not found in SOLR_HOME, using built-in default
+2024-07-30 13:28:11.662 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig Loading solr.xml from /opt/solr-9.6.1/server/solr/solr.xml
+2024-07-30 13:28:11.680 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrResourceLoader Added 1 libs to classloader, from paths: [/opt/solr-9.6.1/lib]
+2024-07-30 13:28:12.129 INFO  (main) [c: s: r: x: t:] o.a.s.u.t.SimplePropagator Always-on trace id generation enabled.
+2024-07-30 13:28:12.246 WARN  (main) [c: s: r: x: t:] o.a.s.u.StartupLoggingUtils Jetty request logging enabled. Will retain logs for last 3 days. See chapter "Configuring Logging" in reference guide for how to configure.
+2024-07-30 13:28:12.247 WARN  (main) [c: s: r: x: t:] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2024-07-30 13:28:12.325 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /var/solr/data
+2024-07-30 13:28:12.325 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Cores are: [books]
+2024-07-30 13:28:12.348 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.10.0
+2024-07-30 13:28:12.396 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.s.IndexSchema Schema name=default-config
+2024-07-30 13:28:12.441 WARN  (main) [c: s: r: x: t:] o.g.j.m.i.MessagingBinders A class jakarta.activation.DataSource for a default provider MessageBodyWriter<jakarta.activation.DataSource> was not found. The provider is not available.
+2024-07-30 13:28:12.605 INFO  (main) [c: s: r: x: t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-07-30 13:28:12.632 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-07-30 13:28:12.632 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.c.CoreContainer Creating SolrCore 'books' using configuration from instancedir /var/solr/data/books, trusted=true
+2024-07-30 13:28:12.659 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.c.SolrCore Opening new SolrCore at [/var/solr/data/books], dataDir=[/var/solr/data/books/data/]
+2024-07-30 13:28:12.677 INFO  (main) [c: s: r: x: t:] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@21362712{solr-jetty-context.xml,/solr,file:///opt/solr-9.6.1/server/solr-webapp/webapp/,AVAILABLE}{/opt/solr-9.6.1/server/solr-webapp/webapp}
+2024-07-30 13:28:12.684 INFO  (main) [c: s: r: x: t:] o.e.j.s.RequestLogWriter Opened /var/solr/logs/2024_07_30.request.log
+2024-07-30 13:28:12.687 INFO  (main) [c: s: r: x: t:] o.e.j.s.AbstractConnector Started ServerConnector@666b83a4{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2024-07-30 13:28:12.689 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server Started Server@3e8f7922{STARTING}[10.0.20,sto=0] @1979ms
+2024-07-30 13:28:12.883 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-07-30 13:28:12.891 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-07-30 13:28:12.891 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-07-30 13:28:12.906 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-07-30 13:28:12.907 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.CommitTracker Soft AutoCommit: if uncommitted for 3000ms; 
+2024-07-30 13:28:12.963 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/books/conf
+2024-07-30 13:28:12.968 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.s.DirectSolrSpellChecker init: {accuracy=0.5, maxQueryFrequency=0.01, name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal, maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4}
+2024-07-30 13:28:12.971 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-07-30 13:28:12.971 INFO  (searcherExecutor-13-thread-1-processing-books) [c: s: r: x:books t:] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-07-30 13:28:12.971 INFO  (searcherExecutor-13-thread-1-processing-books) [c: s: r: x:books t:] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-07-30 13:28:12.974 INFO  (searcherExecutor-13-thread-1-processing-books) [c: s: r: x:books t:] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2024-07-30 13:28:32.532 INFO  (qtp1415289182-25-null-1) [c: s: r: x:books t:null-1] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:test+OR+description:test&fl=id,title&rows=10&wt=json} hits=5 status=0 QTime=182
+2024-07-30 13:43:45.053 INFO  (qtp1415289182-25-null-2) [c: s: r: x:books t:null-2] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=21
+2024-07-30 13:44:47.555 INFO  (qtp1415289182-21-null-3) [c: s: r: x:books t:null-3] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=10&wt=json} hits=61 status=0 QTime=30
+2024-07-30 13:58:58.595 INFO  (qtp1415289182-26-null-4) [c: s: r: x:books t:null-4] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=20
+2024-07-30 14:02:50.108 INFO  (qtp1415289182-18-null-5) [c: s: r: x:books t:null-5] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=10&wt=json} hits=61 status=0 QTime=5
+2024-07-30 14:06:12.080 INFO  (qtp1415289182-18-null-6) [c: s: r: x:books t:null-6] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=6
+2024-07-30 14:08:38.107 INFO  (qtp1415289182-19-null-7) [c: s: r: x:books t:null-7] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=9
+2024-07-30 14:08:38.178 INFO  (qtp1415289182-20-null-8) [c: s: r: x:books t:null-8] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=50
+2024-07-30 14:08:52.516 INFO  (qtp1415289182-26-null-9) [c: s: r: x:books t:null-9] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=4
+2024-07-30 14:08:52.529 INFO  (qtp1415289182-21-null-10) [c: s: r: x:books t:null-10] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-07-30 14:08:57.865 INFO  (qtp1415289182-18-null-11) [c: s: r: x:books t:null-11] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:3&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-07-30 14:08:57.879 INFO  (qtp1415289182-20-null-12) [c: s: r: x:books t:null-12] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=5
+2024-07-30 14:10:36.549 INFO  (qtp1415289182-26-null-13) [c: s: r: x:books t:null-13] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:3&fl=description_vector&wt=json} hits=1 status=0 QTime=16
+2024-07-30 14:10:36.560 INFO  (qtp1415289182-25-null-14) [c: s: r: x:books t:null-14] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-07-30 14:10:39.453 INFO  (qtp1415289182-18-null-15) [c: s: r: x:books t:null-15] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:3&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-07-30 14:10:39.462 INFO  (qtp1415289182-20-null-16) [c: s: r: x:books t:null-16] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-07-30 14:12:15.464 INFO  (qtp1415289182-26-null-17) [c: s: r: x:books t:null-17] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:3&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-07-30 14:12:15.474 INFO  (qtp1415289182-21-null-18) [c: s: r: x:books t:null-18] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-07-30 14:12:22.565 INFO  (qtp1415289182-18-null-19) [c: s: r: x:books t:null-19] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:3&fl=description_vector&wt=json} hits=1 status=0 QTime=4
+2024-07-30 14:12:22.577 INFO  (qtp1415289182-20-null-20) [c: s: r: x:books t:null-20] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-07-30 14:12:49.195 INFO  (qtp1415289182-26-null-21) [c: s: r: x:books t:null-21] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:3&fl=description_vector&wt=json} hits=1 status=0 QTime=6
+2024-07-30 14:12:49.210 INFO  (qtp1415289182-25-null-22) [c: s: r: x:books t:null-22] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-07-30 14:12:52.121 INFO  (qtp1415289182-18-null-23) [c: s: r: x:books t:null-23] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=2
+2024-07-30 14:12:56.878 INFO  (qtp1415289182-21-null-24) [c: s: r: x:books t:null-24] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-07-30 14:12:56.887 INFO  (qtp1415289182-26-null-25) [c: s: r: x:books t:null-25] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1

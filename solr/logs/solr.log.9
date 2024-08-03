@@ -1,0 +1,312 @@
+2024-08-02 03:36:15.408 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server jetty-10.0.20; built: 2024-01-29T20:46:45.278Z; git: 3a745c71c23682146f262b99f4ddc4c1bc41630c; jvm 17.0.12+7
+2024-08-02 03:36:15.744 WARN  (main) [c: s: r: x: t:] o.e.j.u.DeprecationWarning Using @Deprecated Class org.eclipse.jetty.servlet.listener.ELContextCleaner
+2024-08-02 03:36:15.764 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2024-08-02 03:36:15.768 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider  ___      _       Welcome to Apache Solr™ version 9.6.1
+2024-08-02 03:36:15.768 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider / __| ___| |_ _   Starting in standalone mode on port 8983
+2024-08-02 03:36:15.768 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider \__ \/ _ \ | '_|  Install dir: /opt/solr-9.6.1
+2024-08-02 03:36:15.768 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider |___/\___/_|_|    Start time: 2024-08-02T03:36:15.768237543Z
+2024-08-02 03:36:15.769 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr started with "-XX:+CrashOnOutOfMemoryError" that will crash on any OutOfMemoryError exception. The cause of the OOME will be logged in the crash file at the following path: /var/solr/logs/jvm_crash_12.log
+2024-08-02 03:36:15.783 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr Home: /var/solr/data (source: system property: solr.solr.home)
+2024-08-02 03:36:15.795 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig solr.xml not found in SOLR_HOME, using built-in default
+2024-08-02 03:36:15.795 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig Loading solr.xml from /opt/solr-9.6.1/server/solr/solr.xml
+2024-08-02 03:36:15.819 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrResourceLoader Added 1 libs to classloader, from paths: [/opt/solr-9.6.1/lib]
+2024-08-02 03:36:16.319 INFO  (main) [c: s: r: x: t:] o.a.s.u.t.SimplePropagator Always-on trace id generation enabled.
+2024-08-02 03:36:16.528 WARN  (main) [c: s: r: x: t:] o.a.s.u.StartupLoggingUtils Jetty request logging enabled. Will retain logs for last 3 days. See chapter "Configuring Logging" in reference guide for how to configure.
+2024-08-02 03:36:16.529 WARN  (main) [c: s: r: x: t:] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2024-08-02 03:36:16.626 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /var/solr/data
+2024-08-02 03:36:16.627 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Cores are: [books]
+2024-08-02 03:36:16.648 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.10.0
+2024-08-02 03:36:16.712 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.s.IndexSchema Schema name=default-config
+2024-08-02 03:36:16.788 WARN  (main) [c: s: r: x: t:] o.g.j.m.i.MessagingBinders A class jakarta.activation.DataSource for a default provider MessageBodyWriter<jakarta.activation.DataSource> was not found. The provider is not available.
+2024-08-02 03:36:16.955 INFO  (main) [c: s: r: x: t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-08-02 03:36:16.998 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-08-02 03:36:16.999 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.c.CoreContainer Creating SolrCore 'books' using configuration from instancedir /var/solr/data/books, trusted=true
+2024-08-02 03:36:17.026 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.c.SolrCore Opening new SolrCore at [/var/solr/data/books], dataDir=[/var/solr/data/books/data/]
+2024-08-02 03:36:17.040 INFO  (main) [c: s: r: x: t:] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@21362712{solr-jetty-context.xml,/solr,file:///opt/solr-9.6.1/server/solr-webapp/webapp/,AVAILABLE}{/opt/solr-9.6.1/server/solr-webapp/webapp}
+2024-08-02 03:36:17.046 INFO  (main) [c: s: r: x: t:] o.e.j.s.RequestLogWriter Opened /var/solr/logs/2024_08_02.request.log
+2024-08-02 03:36:17.047 INFO  (main) [c: s: r: x: t:] o.e.j.s.AbstractConnector Started ServerConnector@666b83a4{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2024-08-02 03:36:17.048 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server Started Server@3e8f7922{STARTING}[10.0.20,sto=0] @3372ms
+2024-08-02 03:36:17.537 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-08-02 03:36:17.547 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-08-02 03:36:17.547 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-08-02 03:36:17.568 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-08-02 03:36:17.568 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.u.CommitTracker Soft AutoCommit: if uncommitted for 3000ms; 
+2024-08-02 03:36:17.632 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/books/conf
+2024-08-02 03:36:17.640 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.s.DirectSolrSpellChecker init: {maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4, name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal, accuracy=0.5, maxQueryFrequency=0.01}
+2024-08-02 03:36:17.643 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:books t:] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-08-02 03:36:17.644 INFO  (searcherExecutor-13-thread-1-processing-books) [c: s: r: x:books t:] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-08-02 03:36:17.644 INFO  (searcherExecutor-13-thread-1-processing-books) [c: s: r: x:books t:] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-08-02 03:36:17.647 INFO  (searcherExecutor-13-thread-1-processing-books) [c: s: r: x:books t:] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2024-08-02 03:37:05.698 INFO  (qtp1415289182-25-null-1) [c: s: r: x:books t:null-1] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:test+OR+description:test&fl=id,title&rows=10&wt=json} hits=5 status=0 QTime=159
+2024-08-02 03:39:09.412 INFO  (qtp1415289182-25-null-2) [c: s: r: x:books t:null-2] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=19
+2024-08-02 03:39:16.350 INFO  (qtp1415289182-21-null-3) [c: s: r: x:books t:null-3] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 03:39:16.391 INFO  (qtp1415289182-18-null-4) [c: s: r: x:books t:null-4] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=29
+2024-08-02 03:39:32.357 INFO  (qtp1415289182-24-null-5) [c: s: r: x:books t:null-5] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:39:32.364 INFO  (qtp1415289182-23-null-6) [c: s: r: x:books t:null-6] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:42:05.095 INFO  (qtp1415289182-18-null-7) [c: s: r: x:books t:null-7] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=14
+2024-08-02 03:43:19.573 INFO  (qtp1415289182-26-null-8) [c: s: r: x:books t:null-8] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:43:19.581 INFO  (qtp1415289182-24-null-9) [c: s: r: x:books t:null-9] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:45:31.657 INFO  (qtp1415289182-23-null-10) [c: s: r: x:books t:null-10] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=5
+2024-08-02 03:45:51.541 INFO  (qtp1415289182-20-null-11) [c: s: r: x:books t:null-11] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=1
+2024-08-02 03:46:11.822 INFO  (qtp1415289182-26-null-12) [c: s: r: x:books t:null-12] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=1
+2024-08-02 03:46:13.674 INFO  (qtp1415289182-24-null-13) [c: s: r: x:books t:null-13] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:46:13.683 INFO  (qtp1415289182-18-null-14) [c: s: r: x:books t:null-14] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:48:30.386 INFO  (qtp1415289182-27-null-15) [c: s: r: x:books t:null-15] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 03:48:30.397 INFO  (qtp1415289182-26-null-16) [c: s: r: x:books t:null-16] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:50:01.283 INFO  (qtp1415289182-24-null-17) [c: s: r: x:books t:null-17] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 03:50:01.294 INFO  (qtp1415289182-19-null-18) [c: s: r: x:books t:null-18] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:50:11.767 INFO  (qtp1415289182-25-null-19) [c: s: r: x:books t:null-19] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:463&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:50:11.773 INFO  (qtp1415289182-20-null-20) [c: s: r: x:books t:null-20] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:50:27.633 INFO  (qtp1415289182-24-null-21) [c: s: r: x:books t:null-21] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:457&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 03:50:27.644 INFO  (qtp1415289182-26-null-22) [c: s: r: x:books t:null-22] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=4
+2024-08-02 03:51:07.463 INFO  (qtp1415289182-25-null-23) [c: s: r: x:books t:null-23] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:457&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 03:51:07.471 INFO  (qtp1415289182-19-null-24) [c: s: r: x:books t:null-24] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:51:17.151 INFO  (qtp1415289182-24-null-25) [c: s: r: x:books t:null-25] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:457&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:51:17.158 INFO  (qtp1415289182-26-null-26) [c: s: r: x:books t:null-26] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:51:21.604 INFO  (qtp1415289182-25-null-27) [c: s: r: x:books t:null-27] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:457&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:51:21.610 INFO  (qtp1415289182-20-null-28) [c: s: r: x:books t:null-28] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:51:36.553 INFO  (qtp1415289182-24-null-29) [c: s: r: x:books t:null-29] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:457&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:51:36.559 INFO  (qtp1415289182-19-null-30) [c: s: r: x:books t:null-30] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:51:41.687 INFO  (qtp1415289182-25-null-31) [c: s: r: x:books t:null-31] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:258&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 03:51:41.696 INFO  (qtp1415289182-26-null-32) [c: s: r: x:books t:null-32] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=3
+2024-08-02 03:51:47.300 INFO  (qtp1415289182-24-null-33) [c: s: r: x:books t:null-33] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:244&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:51:47.308 INFO  (qtp1415289182-19-null-34) [c: s: r: x:books t:null-34] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-08-02 03:52:04.729 INFO  (qtp1415289182-25-null-35) [c: s: r: x:books t:null-35] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:793&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:52:04.739 INFO  (qtp1415289182-20-null-36) [c: s: r: x:books t:null-36] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=3
+2024-08-02 03:52:18.397 INFO  (qtp1415289182-24-null-37) [c: s: r: x:books t:null-37] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:244&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:52:18.404 INFO  (qtp1415289182-19-null-38) [c: s: r: x:books t:null-38] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:52:21.483 INFO  (qtp1415289182-25-null-39) [c: s: r: x:books t:null-39] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:258&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:52:21.489 INFO  (qtp1415289182-26-null-40) [c: s: r: x:books t:null-40] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:52:24.571 INFO  (qtp1415289182-20-null-41) [c: s: r: x:books t:null-41] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:309&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:52:24.578 INFO  (qtp1415289182-24-null-42) [c: s: r: x:books t:null-42] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-08-02 03:52:33.149 INFO  (qtp1415289182-25-null-43) [c: s: r: x:books t:null-43] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:317&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:52:33.156 INFO  (qtp1415289182-19-null-44) [c: s: r: x:books t:null-44] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-08-02 03:52:45.284 INFO  (qtp1415289182-20-null-45) [c: s: r: x:books t:null-45] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:261&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:52:45.291 INFO  (qtp1415289182-24-null-46) [c: s: r: x:books t:null-46] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:53:18.338 INFO  (qtp1415289182-25-null-47) [c: s: r: x:books t:null-47] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:452&fl=description_vector&wt=json} hits=1 status=0 QTime=2
+2024-08-02 03:53:18.347 INFO  (qtp1415289182-26-null-48) [c: s: r: x:books t:null-48] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=3
+2024-08-02 03:53:27.457 INFO  (qtp1415289182-20-null-49) [c: s: r: x:books t:null-49] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:63&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:53:27.463 INFO  (qtp1415289182-24-null-50) [c: s: r: x:books t:null-50] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:53:48.826 INFO  (qtp1415289182-25-null-51) [c: s: r: x:books t:null-51] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:369&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:53:48.833 INFO  (qtp1415289182-26-null-52) [c: s: r: x:books t:null-52] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:53:55.196 INFO  (qtp1415289182-20-null-53) [c: s: r: x:books t:null-53] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 03:53:55.208 INFO  (qtp1415289182-19-null-54) [c: s: r: x:books t:null-54] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-08-02 03:53:58.394 INFO  (qtp1415289182-25-null-55) [c: s: r: x:books t:null-55] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:388&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:53:58.401 INFO  (qtp1415289182-24-null-56) [c: s: r: x:books t:null-56] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:54:51.253 INFO  (qtp1415289182-20-null-57) [c: s: r: x:books t:null-57] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:388&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 03:54:51.260 INFO  (qtp1415289182-26-null-58) [c: s: r: x:books t:null-58] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:54:57.567 INFO  (qtp1415289182-25-null-59) [c: s: r: x:books t:null-59] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:381&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:54:57.573 INFO  (qtp1415289182-19-null-60) [c: s: r: x:books t:null-60] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:55:05.880 INFO  (qtp1415289182-20-null-61) [c: s: r: x:books t:null-61] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:68&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:55:05.887 INFO  (qtp1415289182-26-null-62) [c: s: r: x:books t:null-62] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:55:33.113 INFO  (qtp1415289182-25-null-63) [c: s: r: x:books t:null-63] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:68&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:55:33.119 INFO  (qtp1415289182-24-null-64) [c: s: r: x:books t:null-64] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:55:35.677 INFO  (qtp1415289182-20-null-65) [c: s: r: x:books t:null-65] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:68&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:55:35.683 INFO  (qtp1415289182-26-null-66) [c: s: r: x:books t:null-66] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:55:46.796 INFO  (qtp1415289182-25-null-67) [c: s: r: x:books t:null-67] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:55:46.802 INFO  (qtp1415289182-19-null-68) [c: s: r: x:books t:null-68] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:56:59.504 INFO  (qtp1415289182-20-null-69) [c: s: r: x:books t:null-69] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 03:56:59.514 INFO  (qtp1415289182-26-null-70) [c: s: r: x:books t:null-70] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:57:16.156 INFO  (qtp1415289182-25-null-71) [c: s: r: x:books t:null-71] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:57:16.162 INFO  (qtp1415289182-19-null-72) [c: s: r: x:books t:null-72] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:57:16.681 INFO  (qtp1415289182-20-null-73) [c: s: r: x:books t:null-73] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:57:16.686 INFO  (qtp1415289182-26-null-74) [c: s: r: x:books t:null-74] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:57:29.389 INFO  (qtp1415289182-25-null-75) [c: s: r: x:books t:null-75] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:57:29.395 INFO  (qtp1415289182-19-null-76) [c: s: r: x:books t:null-76] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:57:37.534 INFO  (qtp1415289182-20-null-77) [c: s: r: x:books t:null-77] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=3
+2024-08-02 03:57:46.003 INFO  (qtp1415289182-26-null-78) [c: s: r: x:books t:null-78] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:57:46.011 INFO  (qtp1415289182-25-null-79) [c: s: r: x:books t:null-79] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:57:46.732 INFO  (qtp1415289182-24-null-80) [c: s: r: x:books t:null-80] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:57:46.738 INFO  (qtp1415289182-20-null-81) [c: s: r: x:books t:null-81] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:57:50.202 INFO  (qtp1415289182-26-null-82) [c: s: r: x:books t:null-82] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:プログラマ+OR+description:プログラマ&fl=id,title&rows=10&wt=json} hits=70 status=0 QTime=3
+2024-08-02 03:58:12.601 INFO  (qtp1415289182-19-null-83) [c: s: r: x:books t:null-83] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 03:58:12.610 INFO  (qtp1415289182-24-null-84) [c: s: r: x:books t:null-84] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:58:13.700 INFO  (qtp1415289182-25-null-85) [c: s: r: x:books t:null-85] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 03:58:13.707 INFO  (qtp1415289182-26-null-86) [c: s: r: x:books t:null-86] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:58:18.003 INFO  (qtp1415289182-19-null-87) [c: s: r: x:books t:null-87] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=10&wt=json} hits=61 status=0 QTime=6
+2024-08-02 03:58:20.971 INFO  (qtp1415289182-24-null-88) [c: s: r: x:books t:null-88] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:20.978 INFO  (qtp1415289182-25-null-89) [c: s: r: x:books t:null-89] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=2
+2024-08-02 03:58:25.087 INFO  (qtp1415289182-20-null-90) [c: s: r: x:books t:null-90] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:184&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:25.094 INFO  (qtp1415289182-19-null-91) [c: s: r: x:books t:null-91] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:58:28.388 INFO  (qtp1415289182-24-null-92) [c: s: r: x:books t:null-92] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:28.396 INFO  (qtp1415289182-25-null-93) [c: s: r: x:books t:null-93] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:58:37.595 INFO  (qtp1415289182-19-null-95) [c: s: r: x:books t:null-95] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 03:58:37.595 INFO  (qtp1415289182-20-null-94) [c: s: r: x:books t:null-94] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 03:58:37.604 INFO  (qtp1415289182-25-null-96) [c: s: r: x:books t:null-96] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:58:37.604 INFO  (qtp1415289182-24-null-97) [c: s: r: x:books t:null-97] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 03:58:37.726 INFO  (qtp1415289182-19-null-98) [c: s: r: x:books t:null-98] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:37.731 INFO  (qtp1415289182-20-null-99) [c: s: r: x:books t:null-99] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:58:38.710 INFO  (qtp1415289182-25-null-100) [c: s: r: x:books t:null-100] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:38.715 INFO  (qtp1415289182-27-null-101) [c: s: r: x:books t:null-101] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:58:46.275 INFO  (qtp1415289182-19-null-102) [c: s: r: x:books t:null-102] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:46.282 INFO  (qtp1415289182-26-null-103) [c: s: r: x:books t:null-103] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:58:46.467 INFO  (qtp1415289182-25-null-104) [c: s: r: x:books t:null-104] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:46.473 INFO  (qtp1415289182-27-null-105) [c: s: r: x:books t:null-105] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 03:58:46.689 INFO  (qtp1415289182-19-null-106) [c: s: r: x:books t:null-106] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:363&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 03:58:46.694 INFO  (qtp1415289182-26-null-107) [c: s: r: x:books t:null-107] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 04:00:40.158 INFO  (qtp1415289182-25-null-108) [c: s: r: x:books t:null-108] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=10&wt=json} hits=61 status=0 QTime=18
+2024-08-02 04:00:41.706 INFO  (qtp1415289182-27-null-109) [c: s: r: x:books t:null-109] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:00:41.715 INFO  (qtp1415289182-19-null-110) [c: s: r: x:books t:null-110] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=4
+2024-08-02 04:01:00.386 INFO  (qtp1415289182-20-null-111) [c: s: r: x:books t:null-111] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:React+OR+description:React&fl=id,title&rows=10&wt=json} hits=43 status=0 QTime=2
+2024-08-02 04:01:03.173 INFO  (qtp1415289182-25-null-112) [c: s: r: x:books t:null-112] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:React+OR+description:React&fl=id,title&rows=10&wt=json} hits=43 status=0 QTime=0
+2024-08-02 04:01:08.857 INFO  (qtp1415289182-27-null-113) [c: s: r: x:books t:null-113] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:322&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:01:08.864 INFO  (qtp1415289182-19-null-114) [c: s: r: x:books t:null-114] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=2
+2024-08-02 04:02:08.677 INFO  (qtp1415289182-20-null-115) [c: s: r: x:books t:null-115] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:234&fl=description_vector&wt=json} hits=1 status=0 QTime=16
+2024-08-02 04:02:08.696 INFO  (qtp1415289182-25-null-116) [c: s: r: x:books t:null-116] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=3
+2024-08-02 04:02:29.083 INFO  (qtp1415289182-27-null-117) [c: s: r: x:books t:null-117] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=10&wt=json} hits=61 status=0 QTime=1
+2024-08-02 04:02:30.572 INFO  (qtp1415289182-26-null-118) [c: s: r: x:books t:null-118] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:02:30.577 INFO  (qtp1415289182-20-null-119) [c: s: r: x:books t:null-119] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:02:32.596 INFO  (qtp1415289182-25-null-120) [c: s: r: x:books t:null-120] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:02:32.603 INFO  (qtp1415289182-27-null-121) [c: s: r: x:books t:null-121] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:02:35.495 INFO  (qtp1415289182-26-null-122) [c: s: r: x:books t:null-122] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:02:35.501 INFO  (qtp1415289182-19-null-123) [c: s: r: x:books t:null-123] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:04:37.712 INFO  (qtp1415289182-24-null-124) [c: s: r: x:books t:null-124] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:04:37.721 INFO  (qtp1415289182-27-null-125) [c: s: r: x:books t:null-125] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:04:58.534 INFO  (qtp1415289182-26-null-126) [c: s: r: x:books t:null-126] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:04:58.540 INFO  (qtp1415289182-19-null-127) [c: s: r: x:books t:null-127] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:05:01.020 INFO  (qtp1415289182-23-null-128) [c: s: r: x:books t:null-128] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:05:01.026 INFO  (qtp1415289182-27-null-129) [c: s: r: x:books t:null-129] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:05:15.012 INFO  (qtp1415289182-26-null-130) [c: s: r: x:books t:null-130] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:05:15.021 INFO  (qtp1415289182-19-null-131) [c: s: r: x:books t:null-131] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=1
+2024-08-02 04:05:17.632 INFO  (qtp1415289182-23-null-132) [c: s: r: x:books t:null-132] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:05:17.637 INFO  (qtp1415289182-27-null-133) [c: s: r: x:books t:null-133] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=6 status=0 QTime=0
+2024-08-02 04:05:40.080 INFO  (qtp1415289182-26-null-134) [c: s: r: x:books t:null-134] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:05:40.089 INFO  (qtp1415289182-25-null-135) [c: s: r: x:books t:null-135] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:06:58.941 INFO  (qtp1415289182-23-null-136) [c: s: r: x:books t:null-136] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=10&wt=json} hits=61 status=0 QTime=4
+2024-08-02 04:07:17.214 INFO  (qtp1415289182-27-null-137) [c: s: r: x:books t:null-137] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=2
+2024-08-02 04:08:31.647 INFO  (qtp1415289182-26-null-138) [c: s: r: x:books t:null-138] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:クラシック+OR+description:クラシック&fl=id,title&rows=20&wt=json} hits=15 status=0 QTime=8
+2024-08-02 04:08:45.106 INFO  (qtp1415289182-25-null-139) [c: s: r: x:books t:null-139] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:クラシック+OR+description:クラシック&fl=id,title&rows=10&wt=json} hits=15 status=0 QTime=6
+2024-08-02 04:12:46.535 INFO  (qtp1415289182-24-null-140) [c: s: r: x:books t:null-140] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=5
+2024-08-02 04:13:39.463 INFO  (qtp1415289182-27-null-141) [c: s: r: x:books t:null-141] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:クラシック+OR+description:クラシック&fl=id,title&rows=20&wt=json} hits=15 status=0 QTime=1
+2024-08-02 04:50:32.547 INFO  (qtp1415289182-24-null-142) [c: s: r: x:books t:null-142] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=7
+2024-08-02 04:50:33.768 INFO  (qtp1415289182-25-null-143) [c: s: r: x:books t:null-143] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:50:33.774 INFO  (qtp1415289182-21-null-144) [c: s: r: x:books t:null-144] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:51:06.362 INFO  (qtp1415289182-27-null-145) [c: s: r: x:books t:null-145] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:51:06.382 INFO  (qtp1415289182-18-null-146) [c: s: r: x:books t:null-146] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=3
+2024-08-02 04:51:14.300 INFO  (qtp1415289182-25-null-147) [c: s: r: x:books t:null-147] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=2
+2024-08-02 04:51:14.309 INFO  (qtp1415289182-26-null-148) [c: s: r: x:books t:null-148] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:51:31.497 INFO  (qtp1415289182-27-null-149) [c: s: r: x:books t:null-149] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:51:31.507 INFO  (qtp1415289182-21-null-150) [c: s: r: x:books t:null-150] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=2
+2024-08-02 04:51:37.221 INFO  (qtp1415289182-25-null-151) [c: s: r: x:books t:null-151] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:51:37.227 INFO  (qtp1415289182-26-null-152) [c: s: r: x:books t:null-152] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:51:38.818 INFO  (qtp1415289182-27-null-153) [c: s: r: x:books t:null-153] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=19
+2024-08-02 04:51:38.852 INFO  (qtp1415289182-21-null-154) [c: s: r: x:books t:null-154] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=3
+2024-08-02 04:51:48.066 INFO  (qtp1415289182-25-null-155) [c: s: r: x:books t:null-155] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:51:48.071 INFO  (qtp1415289182-23-null-156) [c: s: r: x:books t:null-156] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:52:00.858 INFO  (qtp1415289182-27-null-157) [c: s: r: x:books t:null-157] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:52:00.880 INFO  (qtp1415289182-21-null-158) [c: s: r: x:books t:null-158] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:52:06.838 INFO  (qtp1415289182-25-null-159) [c: s: r: x:books t:null-159] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:52:06.846 INFO  (qtp1415289182-23-null-160) [c: s: r: x:books t:null-160] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:52:08.556 INFO  (qtp1415289182-27-null-161) [c: s: r: x:books t:null-161] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 04:52:08.563 INFO  (qtp1415289182-21-null-162) [c: s: r: x:books t:null-162] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:52:20.895 INFO  (qtp1415289182-25-null-163) [c: s: r: x:books t:null-163] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=8
+2024-08-02 04:52:20.911 INFO  (qtp1415289182-26-null-164) [c: s: r: x:books t:null-164] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:52:27.290 INFO  (qtp1415289182-27-null-165) [c: s: r: x:books t:null-165] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:52:27.296 INFO  (qtp1415289182-21-null-166) [c: s: r: x:books t:null-166] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:55:23.507 INFO  (qtp1415289182-20-null-167) [c: s: r: x:books t:null-167] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:55:23.516 INFO  (qtp1415289182-26-null-168) [c: s: r: x:books t:null-168] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:55:32.111 INFO  (qtp1415289182-27-null-169) [c: s: r: x:books t:null-169] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=3
+2024-08-02 04:55:33.556 INFO  (qtp1415289182-21-null-170) [c: s: r: x:books t:null-170] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:55:33.563 INFO  (qtp1415289182-23-null-171) [c: s: r: x:books t:null-171] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:56:35.332 INFO  (qtp1415289182-26-null-172) [c: s: r: x:books t:null-172] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:56:35.346 INFO  (qtp1415289182-27-null-173) [c: s: r: x:books t:null-173] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=5
+2024-08-02 04:56:49.776 INFO  (qtp1415289182-21-null-174) [c: s: r: x:books t:null-174] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:56:49.787 INFO  (qtp1415289182-25-null-175) [c: s: r: x:books t:null-175] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=3
+2024-08-02 04:56:53.017 INFO  (qtp1415289182-26-null-176) [c: s: r: x:books t:null-176] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=13
+2024-08-02 04:56:53.030 INFO  (qtp1415289182-27-null-177) [c: s: r: x:books t:null-177] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:56:55.157 INFO  (qtp1415289182-21-null-178) [c: s: r: x:books t:null-178] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:56:55.163 INFO  (qtp1415289182-25-null-179) [c: s: r: x:books t:null-179] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:57:04.847 INFO  (qtp1415289182-26-null-180) [c: s: r: x:books t:null-180] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:57:04.857 INFO  (qtp1415289182-23-null-181) [c: s: r: x:books t:null-181] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:57:11.892 INFO  (qtp1415289182-21-null-182) [c: s: r: x:books t:null-182] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:57:11.898 INFO  (qtp1415289182-25-null-183) [c: s: r: x:books t:null-183] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:57:16.539 INFO  (qtp1415289182-26-null-184) [c: s: r: x:books t:null-184] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=4
+2024-08-02 04:57:16.549 INFO  (qtp1415289182-23-null-185) [c: s: r: x:books t:null-185] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:57:32.629 INFO  (qtp1415289182-21-null-186) [c: s: r: x:books t:null-186] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=3
+2024-08-02 04:57:32.637 INFO  (qtp1415289182-27-null-187) [c: s: r: x:books t:null-187] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 04:57:43.326 INFO  (qtp1415289182-26-null-188) [c: s: r: x:books t:null-188] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:57:43.332 INFO  (qtp1415289182-23-null-189) [c: s: r: x:books t:null-189] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:57:45.940 INFO  (qtp1415289182-21-null-190) [c: s: r: x:books t:null-190] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:752&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 04:57:45.945 INFO  (qtp1415289182-27-null-191) [c: s: r: x:books t:null-191] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 04:57:50.770 INFO  (qtp1415289182-26-null-192) [c: s: r: x:books t:null-192] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=3
+2024-08-02 05:02:13.320 INFO  (qtp1415289182-19-null-193) [c: s: r: x:books t:null-193] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=5
+2024-08-02 05:08:03.688 INFO  (qtp1415289182-24-null-194) [c: s: r: x:books t:null-194] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=4
+2024-08-02 05:08:41.637 INFO  (qtp1415289182-25-null-195) [c: s: r: x:books t:null-195] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=3
+2024-08-02 05:10:06.679 INFO  (qtp1415289182-26-null-196) [c: s: r: x:books t:null-196] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=11
+2024-08-02 05:12:15.205 INFO  (qtp1415289182-24-null-197) [c: s: r: x:books t:null-197] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=5
+2024-08-02 05:21:04.701 INFO  (qtp1415289182-27-null-198) [c: s: r: x:books t:null-198] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=5
+2024-08-02 05:29:51.587 INFO  (qtp1415289182-21-null-199) [c: s: r: x:books t:null-199] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:音楽+OR+description:音楽&fl=id,title&rows=20&wt=json} hits=61 status=0 QTime=5
+2024-08-02 05:29:53.862 INFO  (qtp1415289182-26-null-200) [c: s: r: x:books t:null-200] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:186&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 05:29:53.869 INFO  (qtp1415289182-20-null-201) [c: s: r: x:books t:null-201] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 05:29:57.301 INFO  (qtp1415289182-18-null-202) [c: s: r: x:books t:null-202] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:ピアノ+OR+description:ピアノ&fl=id,title&rows=20&wt=json} hits=36 status=0 QTime=5
+2024-08-02 09:12:54.220 INFO  (qtp1415289182-26-null-204) [c: s: r: x:books t:null-204] o.a.s.c.S.Request webapp=/solr path=/select params={q=*:*&fl=id,description,score&rows=1&wt=json&tv.tf_idf=true} hits=824 status=0 QTime=11
+2024-08-02 09:26:13.463 INFO  (qtp1415289182-27-null-205) [c: s: r: x:books t:null-205] o.a.s.c.S.Request webapp=/solr path=/select params={q=*:*&fl=id,description,score&tv.tf=true&rows=1&wt=json} hits=824 status=0 QTime=14
+2024-08-02 09:56:10.289 INFO  (qtp1415289182-19-null-206) [c: s: r: x:books t:null-206] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:2&fl=description_vector&wt=json} hits=1 status=0 QTime=18
+2024-08-02 09:56:10.348 INFO  (qtp1415289182-23-null-207) [c: s: r: x:books t:null-207] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=10 status=0 QTime=16
+2024-08-02 10:44:07.655 INFO  (qtp1415289182-25-null-208) [c: s: r: x:books t:null-208] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:search&fl=description_vector&wt=json} hits=0 status=0 QTime=5
+2024-08-02 10:44:23.496 INFO  (qtp1415289182-20-null-209) [c: s: r: x:books t:null-209] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:リーダー+OR+description:リーダー&fl=id,title&rows=20&wt=json} hits=48 status=0 QTime=16
+2024-08-02 10:44:26.299 INFO  (qtp1415289182-23-null-210) [c: s: r: x:books t:null-210] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:599&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:44:26.312 INFO  (qtp1415289182-18-null-211) [c: s: r: x:books t:null-211] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=7
+2024-08-02 10:44:50.514 INFO  (qtp1415289182-27-null-212) [c: s: r: x:books t:null-212] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:mysql+OR+description:mysql&fl=id,title&rows=20&wt=json} hits=5 status=0 QTime=5
+2024-08-02 10:44:55.722 INFO  (qtp1415289182-20-null-213) [c: s: r: x:books t:null-213] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:DB+OR+description:DB&fl=id,title&rows=20&wt=json} hits=23 status=0 QTime=5
+2024-08-02 10:44:58.799 INFO  (qtp1415289182-23-null-214) [c: s: r: x:books t:null-214] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:70&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:44:58.808 INFO  (qtp1415289182-18-null-215) [c: s: r: x:books t:null-215] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=3
+2024-08-02 10:45:07.551 INFO  (qtp1415289182-27-null-216) [c: s: r: x:books t:null-216] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:趣味+OR+description:趣味&fl=id,title&rows=20&wt=json} hits=39 status=0 QTime=5
+2024-08-02 10:45:09.387 INFO  (qtp1415289182-20-null-217) [c: s: r: x:books t:null-217] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:719&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:45:09.396 INFO  (qtp1415289182-23-null-218) [c: s: r: x:books t:null-218] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=3
+2024-08-02 10:45:22.402 INFO  (qtp1415289182-18-null-219) [c: s: r: x:books t:null-219] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:投資+OR+description:投資&fl=id,title&rows=20&wt=json} hits=60 status=0 QTime=5
+2024-08-02 10:45:29.756 INFO  (qtp1415289182-27-null-220) [c: s: r: x:books t:null-220] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:703&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:45:29.763 INFO  (qtp1415289182-20-null-221) [c: s: r: x:books t:null-221] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=2
+2024-08-02 10:45:42.389 INFO  (qtp1415289182-23-null-222) [c: s: r: x:books t:null-222] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:ロジカル+OR+description:ロジカル&fl=id,title&rows=20&wt=json} hits=22 status=0 QTime=4
+2024-08-02 10:45:44.501 INFO  (qtp1415289182-18-null-223) [c: s: r: x:books t:null-223] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:512&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:45:44.508 INFO  (qtp1415289182-27-null-224) [c: s: r: x:books t:null-224] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=2
+2024-08-02 10:45:56.917 INFO  (qtp1415289182-20-null-225) [c: s: r: x:books t:null-225] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:101&fl=description_vector&wt=json} hits=1 status=0 QTime=1
+2024-08-02 10:45:56.923 INFO  (qtp1415289182-23-null-226) [c: s: r: x:books t:null-226] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 10:46:03.186 INFO  (qtp1415289182-18-null-227) [c: s: r: x:books t:null-227] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:317&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:46:03.192 INFO  (qtp1415289182-27-null-228) [c: s: r: x:books t:null-228] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:46:05.474 INFO  (qtp1415289182-20-null-229) [c: s: r: x:books t:null-229] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:101&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:46:05.481 INFO  (qtp1415289182-23-null-230) [c: s: r: x:books t:null-230] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:46:12.064 INFO  (qtp1415289182-18-null-231) [c: s: r: x:books t:null-231] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:266&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:46:12.071 INFO  (qtp1415289182-27-null-232) [c: s: r: x:books t:null-232] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=2
+2024-08-02 10:46:25.017 INFO  (qtp1415289182-20-null-233) [c: s: r: x:books t:null-233] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:101&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:46:25.024 INFO  (qtp1415289182-23-null-234) [c: s: r: x:books t:null-234] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:46:30.979 INFO  (qtp1415289182-18-null-235) [c: s: r: x:books t:null-235] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:273&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:46:30.985 INFO  (qtp1415289182-27-null-236) [c: s: r: x:books t:null-236] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:46:49.901 INFO  (qtp1415289182-20-null-237) [c: s: r: x:books t:null-237] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:101&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:46:49.906 INFO  (qtp1415289182-23-null-238) [c: s: r: x:books t:null-238] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:46:53.658 INFO  (qtp1415289182-18-null-239) [c: s: r: x:books t:null-239] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:ゲーム+OR+description:ゲーム&fl=id,title&rows=20&wt=json} hits=20 status=0 QTime=4
+2024-08-02 10:46:56.102 INFO  (qtp1415289182-26-null-240) [c: s: r: x:books t:null-240] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:470&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:46:56.108 INFO  (qtp1415289182-20-null-241) [c: s: r: x:books t:null-241] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 10:47:18.691 INFO  (qtp1415289182-23-null-242) [c: s: r: x:books t:null-242] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:152&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:47:18.697 INFO  (qtp1415289182-18-null-243) [c: s: r: x:books t:null-243] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 10:47:32.105 INFO  (qtp1415289182-26-null-244) [c: s: r: x:books t:null-244] o.a.s.c.S.Request webapp=/solr path=/select params={q=title:キャリア+OR+description:キャリア&fl=id,title&rows=20&wt=json} hits=73 status=0 QTime=3
+2024-08-02 10:47:39.116 INFO  (qtp1415289182-20-null-245) [c: s: r: x:books t:null-245] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:501&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:47:39.123 INFO  (qtp1415289182-23-null-246) [c: s: r: x:books t:null-246] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=2
+2024-08-02 10:47:43.368 INFO  (qtp1415289182-18-null-247) [c: s: r: x:books t:null-247] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:524&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:47:43.374 INFO  (qtp1415289182-26-null-248) [c: s: r: x:books t:null-248] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 10:47:46.130 INFO  (qtp1415289182-20-null-249) [c: s: r: x:books t:null-249] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:501&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:47:46.136 INFO  (qtp1415289182-27-null-250) [c: s: r: x:books t:null-250] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:47:51.049 INFO  (qtp1415289182-18-null-251) [c: s: r: x:books t:null-251] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:495&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:47:51.056 INFO  (qtp1415289182-23-null-252) [c: s: r: x:books t:null-252] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 10:47:55.541 INFO  (qtp1415289182-20-null-253) [c: s: r: x:books t:null-253] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:8&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:47:55.547 INFO  (qtp1415289182-27-null-254) [c: s: r: x:books t:null-254] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:47:57.812 INFO  (qtp1415289182-18-null-255) [c: s: r: x:books t:null-255] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:495&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:47:57.817 INFO  (qtp1415289182-23-null-256) [c: s: r: x:books t:null-256] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:48:07.547 INFO  (qtp1415289182-20-null-257) [c: s: r: x:books t:null-257] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:30&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:48:07.554 INFO  (qtp1415289182-27-null-258) [c: s: r: x:books t:null-258] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 10:48:10.432 INFO  (qtp1415289182-18-null-259) [c: s: r: x:books t:null-259] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:495&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:48:10.438 INFO  (qtp1415289182-26-null-260) [c: s: r: x:books t:null-260] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=0
+2024-08-02 10:48:20.746 INFO  (qtp1415289182-20-null-261) [c: s: r: x:books t:null-261] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:5&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:48:20.753 INFO  (qtp1415289182-23-null-262) [c: s: r: x:books t:null-262] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-02 10:48:31.556 INFO  (qtp1415289182-18-null-263) [c: s: r: x:books t:null-263] o.a.s.c.S.Request webapp=/solr path=/select params={q=id:453&fl=description_vector&wt=json} hits=1 status=0 QTime=0
+2024-08-02 10:48:31.562 INFO  (qtp1415289182-27-null-264) [c: s: r: x:books t:null-264] o.a.s.c.S.Request webapp=/solr path=/select params={} hits=11 status=0 QTime=1
+2024-08-03 06:23:01.838 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.e.j.s.Server Stopped Server@3e8f7922{STOPPING}[10.0.20,sto=0]
+2024-08-03 06:23:01.863 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.e.j.s.AbstractConnector Stopped ServerConnector@666b83a4{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2024-08-03 06:23:01.970 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1367612102
+2024-08-03 06:23:01.977 INFO  (coreCloseExecutor-19-thread-1) [c: s: r: x:books t:] o.a.s.c.SolrCore CLOSING SolrCore org.apache.solr.core.SolrCore@27207697 books
+2024-08-03 06:23:01.981 INFO  (coreCloseExecutor-19-thread-1) [c: s: r: x:books t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.books tag=SolrCore@27207697
+2024-08-03 06:23:02.046 INFO  (coreCloseExecutor-19-thread-1) [c: s: r: x:books t:] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2024-08-03 06:23:02.092 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2024-08-03 06:23:02.100 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2024-08-03 06:23:02.102 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2024-08-03 06:23:02.124 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@21362712{solr-jetty-context.xml,/solr,null,STOPPED}{/opt/solr-9.6.1/server/solr-webapp/webapp}
