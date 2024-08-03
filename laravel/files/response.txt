@@ -1,0 +1,930 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1692,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "uWhmDwAAQBAJ",
+      "etag": "HwTuE/yT860",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/uWhmDwAAQBAJ",
+      "volumeInfo": {
+        "title": "たのしいプログラミング　Pythonではじめよう！",
+        "authors": [
+          "Jason R. Briggs"
+        ],
+        "publisher": "株式会社 オーム社",
+        "publishedDate": "2014-02-25",
+        "description": "プログラミングってこんなに楽しい！ 「いつかはプログラミングしたい！ でも私には難しそう……」と二の足を踏んでいる方。 「プログラミングできたら便利！ でも勉強するのはつまらない……」と敬遠している方。 「プログラミングできたらかっこいい！ でも作りたいアプリとかない……」とあきらめている方。 世界中で大人気の小難しくないプログラミング言語Pythonなら、覚えることも最小限。この本を読んで、楽しいプログラミングの世界に飛び込んでみましょう！ 面白い例題やパズルを楽しみながら、愉快でカラフルなイラストと一緒にかっこいいプログラミングを学ぶことができます。 本書は、“Python for Kids：A Playful Introduction to Programming”を翻訳したものです。 訳者まえがき はじめに 第I部 プログラムの作り方 第1章 ニョロニョロしない蛇もいるんですよ 1.1 「言語」とコンピューター 1.2 Pythonをインストールしよう 1.3 Pythonのインストールが終わったら 1.4 プログラムを保存する方法 1.5 この章でわかったこと 第2章 計算と変数 2.1 Pythonで計算をしてみる 2.2 変数は荷札みたい 2.3 変数を使いこなす 2.4 この章でわかったこと 第3章 文字列、リスト、タプル、そして辞書 3.1 文字列 3.2 文字列よりも強力な「リスト」 3.3 タプル 3.4 Pythonの辞書で言葉の意味は探せません 3.5 この章でわかったこと 3.6 自分でやってみよう 第4章 カメさんでお絵かき 4.1 Pythonのturtleモジュールを使う 4.2 この章でわかったこと 4.3 自分でやってみよう 第5章 質問なら「if」と「else」におまかせ 5.1 if 文 5.2 ifとelseの組み合わせ 5.3 if と elif 文 5.4 条件をつなげる 5.5 値のない変数とNone 5.6 文字列と数値の違い 5.7 この章でわかったこと 5.8 自分でやってみよう 第6章 くるくるまわれ！ 6.1 forループを使ってみる 6.2 繰り返しをするための他の方法 6.3 この章でわかったこと 6.4 自分でやってみよう 第7章 関数とモジュールを使ってプログラムを再利用 7.1 関数の使い方 7.2 モジュールを使う 7.3 この章でわかったこと 7.4 自分でやってみよう 第8章 クラスとオブジェクトの使い方 8.1 モノをクラスに当てはめる 8.2 クラスとオブジェクトの便利な機能 8.3 オブジェクトを初期化する 8.4 この章でわかったこと 8.5 自分でやってみよう 第9章 Pythonの組み込み関数 9.1 組み込み関数を使う 9.2 ファイルを使う 9.3 この章でわかったこと 9.4 自分でやってみよう 第10章 便利に使えるモジュールたち 10.1 copyモジュールを使ってコピーを作る 10.2 keywordでキーワード？ 10.3 randomのラは乱数のラ 10.4 sysモジュールでPythonシェルを操作 10.5 timeモジュールで時間を操作 10.6 pickleで情報を漬け物に 10.7 この章でわかったこと 10.8 自分でやってみよう 第11章 カメさんでもっとお絵かき 11.1 最初は簡単な四角形から 11.2 星形を描いてみる 11.3 図形だけ？絵も描けるよ 11.4 いろいろな「いろ」 11.5 関数で正方形 11.6 色つき正方形も関数で 11.7 星に色をつけて本物っぽく 11.8 この章でわかったこと 11.9 自分でやってみよう 第12章 tkinterでもっとすごいグラフィックス 12.1 ボタンを作ろう 12.2 超便利なキーワード引数 12.3 お絵かきはキャンバスの上で 12.4 線を描いてみる 12.5 四角形を描くのがこんなに簡単に 12.6 アーチを描いてみる 12.7 多角形を描いてみる 12.8 文字を書いてみる 12.9 画像を表示してみる 12.10 アニメーションを作ってみよう 12.11 リモートコントロール 12.12 識別番号って何だろう 12.13 この章でわかったこと 12.14 自分でやってみよう 第II部 Bounce!ゲーム 第13章 Bounce!ゲームを作ってみよう 13.1 跳ねるボールを打ち返せ 13.2 ゲームはキャンバスの上に 13.3 ボールはクラス 13.4 ボールよ動け！ 13.5 この章でわかったこと 第14章 Bounce!ゲームを完成させよう 14.1 ラケットを作る 14.2 ゲームのルールは？ 14.3 この章でわかったこと 14.4 自分でやってみよう 第III部 ミスター・スティックマン脱出ゲーム 第15章 ミスター・スティックマン脱出ゲームのグラフィックスを作る 15.1 ミスター・スティックマン脱出ゲームの作成計画 15.2 GIMPのインストール 15.3 ゲームの部品を作る 15.4 この章でわかったこと 第16章 ミスター・スティックマン脱出ゲームを開発する 16.1 Gameクラスを作る 16.2 座標クラスを作る 16.3 衝突を検出する 16.4 スプライトクラスを作る 16.5 床の追加 16.6 この章でわかったこと 16.7 自分でやってみよう 第17章 ミスター・スティックマンを作る 17.1 スティックマンを追加する 17.2 スティックマンの左右移動 17.3 スティックマンをジャンプさせる 17.4 ここまでに作ったもの 17.5 この章でわかったこと 第18章 ミスター・スティックマン脱出ゲームを完成させよう 18.1 スティックマンをアニメーションさせる 18.2 スティックマンを動かしてみる 18.3 ドア！ 18.4 ゲーム完成 18.5 この章でわかったこと 18.6 自分でやってみよう これからどうしよう？ 付録：Pythonのキーワード 語集 索引",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784274069444"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "4274069443"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 279,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uWhmDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uWhmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=uWhmDwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=uWhmDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=uWhmDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3080,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 2772,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=uWhmDwAAQBAJ&rdid=book-uWhmDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3080000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 2772000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%81%9F%E3%81%AE%E3%81%97%E3%81%84%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0_Python-sample-pdf.acsm?id=uWhmDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=uWhmDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "プログラミングってこんなに楽しい！ 「いつかはプログラミングしたい！ でも私には難しそう……」と二の足を踏んでいる方。 「プログラミングできたら便利！ ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "n0UwDwAAQBAJ",
+      "etag": "GU9t1w9G4LI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/n0UwDwAAQBAJ",
+      "volumeInfo": {
+        "title": "スラスラわかるPython",
+        "authors": [
+          "岩崎 圭",
+          "北川 慎治"
+        ],
+        "publisher": "翔泳社",
+        "publishedDate": "2017-08-09",
+        "description": "Pythonのスタンダードがわかる。 わかりやすさを追求した本格的な入門書! 本書はPythonの入門書です。Pythonはコンパイルのいらない 軽量なプログラミング言語です。その手軽さや文法の学びやすさが 人気であり、入門者がはじめてプログラミングを行なうのに最適な 言語として注目されています。 この書籍は、はじめてプログラミングを学ぶ人に向けています。 入門者がつまづく箇所を事前に募集したプログラミングがはじめての レビューアーと追求し、プログラミングの「なぜ」を解決できるよう わかりやすさを重視した解説をしています。 この書籍で、インストールから応用まで、Pythonでデータを 扱うための基礎がたのしく身につけることができます! 【本書の特長】 本書はPythonで本当に使われることに特化しており、 「せっかく覚えたのにこの機能全然使わない」ということが ありません。 入門者でもスラスラとPythonを学ぶことができます。 また、一番つまづきやすい環境構築は図を使いながら、 丁寧に解説しているので、安心してプログラミングの学習を 始めることができます。 【対応環境】 本書はWindows、MacOSの両方で解説をしています。また、Pythonの バージョンは執筆時では最新のPython 3.6.1で解説しています。 ※本電子書籍は同名出版物を底本として作成しました。記載内容は印刷出版当時のものです。 ※印刷出版再現のため電子書籍としては不要な情報を含んでいる場合があります。 ※印刷出版とは異なる表記・表現の場合があります。予めご了承ください。 ※プレビューにてお手持ちの電子端末での表示状態をご確認の上、商品をお買い求めください。 (翔泳社)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784798154237"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "4798154237"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 343,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.115.98.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=n0UwDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=n0UwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=n0UwDwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=n0UwDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=n0UwDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2530,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 2277,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=n0UwDwAAQBAJ&rdid=book-n0UwDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2530000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 2277000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%A9%E3%82%8F%E3%81%8B%E3%82%8BPython-sample-epub.acsm?id=n0UwDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%A9%E3%82%8F%E3%81%8B%E3%82%8BPython-sample-pdf.acsm?id=n0UwDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=n0UwDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Pythonのスタンダードがわかる。 わかりやすさを追求した本格的な入門書! 本書はPythonの入門書です。Pythonはコンパイルのいらない ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Lv9REAAAQBAJ",
+      "etag": "jI+nJNTYmrE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Lv9REAAAQBAJ",
+      "volumeInfo": {
+        "title": "スラスラわかるPython 第2版",
+        "authors": [
+          "岩崎 圭",
+          "北川 慎治"
+        ],
+        "publisher": "翔泳社",
+        "publishedDate": "2021-11-17",
+        "description": "Pythonの技術を基礎からやさしく解説した、入門書の決定版! 本書は「はじめてプログラミングを学ぶ人」に向け、Pythonのスタンダードな知識を 習得することを目標としています。基本をしっかり理解し、身につけられるよう、 必要最低限の知識を丁寧に解説しています。 前版を見直し、プログラミング以前に初学者がつまずきやすかったCUIの操作解説を充実させ、 プログラムの動きを終えるよう、コードの入力内容と実行結果を一目でわかるようにしました。 また、前版刊行後に普及した「型ヒント」の章を新たに設けています。 ※本書の内容は、2021年10月にリリースされたPython 3.10に基づいています。 将来、機械学習に取り組もうと思っている方は、まずは本書でPythonプログラミングを はじめてみましょう。 【目次】 第1章 Pythonの紹介 第2章 Pythonを自分のPCで動かそう 第3章 Pythonでプログラムを動かそう 第4章 型とメソッド 第5章 条件分岐 第6章 リスト型と繰り返し処理 第7章 辞書型 第8章 関数 第9章 エラーと例外 第10章 型ヒント 第11章 スクリプト、モジュール、パッケージ 第12章 Webスクレイピング 第13章 ファイル操作 ※本電子書籍は同名出版物を底本として作成しました。記載内容は印刷出版当時のものです。 ※印刷出版再現のため電子書籍としては不要な情報を含んでいる場合があります。 ※印刷出版とは異なる表記・表現の場合があります。予めご了承ください。 ※プレビューにてお手持ちの電子端末での表示状態をご確認の上、商品をお買い求めください。 (翔泳社)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784798174389"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "4798174386"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 385,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.9.8.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Lv9REAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Lv9REAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=Lv9REAAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Lv9REAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Lv9REAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2530,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 2277,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Lv9REAAAQBAJ&rdid=book-Lv9REAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2530000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 2277000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%A9%E3%82%8F%E3%81%8B%E3%82%8BPython_%E7%AC%AC2%E7%89%88-sample-epub.acsm?id=Lv9REAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%B9%E3%83%A9%E3%82%B9%E3%83%A9%E3%82%8F%E3%81%8B%E3%82%8BPython_%E7%AC%AC2%E7%89%88-sample-pdf.acsm?id=Lv9REAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Lv9REAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Pythonの技術を基礎からやさしく解説した、入門書の決定版! 本書は「はじめてプログラミングを学ぶ人」に向け、Pythonのスタンダードな知識を ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "oW63DwAAQBAJ",
+      "etag": "2YunIsiTwAc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/oW63DwAAQBAJ",
+      "volumeInfo": {
+        "title": "実践力を身につける Pythonの教科書",
+        "authors": [
+          "クジラ飛行机"
+        ],
+        "publisher": "マイナビ出版",
+        "publishedDate": "2016-10-26",
+        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 便利な簡単プログラムから機械学習までこの1冊で！ 本書はプログラミング言語Python（パイソン）の入門書です。 初めてPythonに取り組む人にとってもわかりやすいように、Pythonの文法の基本を1つずつ丁寧に説明します。小さなプログラムを実際に作りながらの説明なので、その文法がどんなものなのか、どんな時に使えばいいのかを理解しやすくなっています。また、プログラムが動く楽しさを味わいながら進むことができるようになっています。 後半では、より本格的にPythonを使っていくためのプログラミングを学んでいきます。途中少し難しめの解説があるところでは、「後から読んでも大丈夫」というマークを付けて、読み飛ばせるようになっています。 実践編や応用編では、少し長めのプログラムを書いて、デスクトップアプリやWebアプリを作ったり、機械学習で判定をするプログラムを書いたりする作例を紹介しています。これによって、本書で学習したことの理解を深めることもできますし、動くプログラムを作る楽しさや充実感を味わうことができます。 「初心者だけど、とりあえず動くものを作りたい」という目的にも使えますし、少し上達してから、後回しにしていた内容をもう一度読んで、「さらに力を付けて、高度なプログラミングにも挑戦してみたい」という目的にも使える、1冊で2度おいしい本です。",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:BT000040869800100101900209"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.2.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=oW63DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=oW63DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=oW63DwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=oW63DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=oW63DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2838,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 2554,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=oW63DwAAQBAJ&rdid=book-oW63DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2838000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 2554000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E5%AE%9F%E8%B7%B5%E5%8A%9B%E3%82%92%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%91%E3%82%8B_Python%E3%81%AE%E6%95%99-sample-epub.acsm?id=oW63DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E5%AE%9F%E8%B7%B5%E5%8A%9B%E3%82%92%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%91%E3%82%8B_Python%E3%81%AE%E6%95%99-sample-pdf.acsm?id=oW63DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=oW63DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用など ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4mzLDwAAQBAJ",
+      "etag": "zvLS2f2DoWY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4mzLDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Pythonではじめるアルゴリズム入門 伝統的なアルゴリズムで学ぶ定石と計算量",
+        "authors": [
+          "増井敏克"
+        ],
+        "publisher": "翔泳社",
+        "publishedDate": "2020-01-24",
+        "description": "時代が変わっても 変わらないアルゴリズムから考え方を学ぼう 本書は、初心者にも扱いやすいプログラミング言語「Python」を使用して、 アルゴリズムの基礎・考え方を学ぶ入門書です。特にPythonがはじめてという方の ために、第1章ではPythonの基本とデータ構造について解説しています。 本書では、プログラミング入門者が最低限知っておきたいアルゴリズムの 基礎と考え方に加えて、アルゴリズムの定石とその計算量について、具体的 なサンプルコードと動作イメージを交えて丁寧に解説していきます。 【こんな方におすすめ】 ・アルゴリズムをゼロから学びたい ・Pythonでプログラミングを学んでいるけれど何から手をつけていいのかわからない ・過去にアルゴリズムを学ぼうと思ったけれどPythonの資料が少なかった ・基本情報技術者試験でPythonが取り入れられるので勉強したい 【本書の特徴】 ・Pythonの基本とアルゴリズムの基礎を一冊で学べる ・具体的なサンプルコードと動作イメージ（フローチャート）を交えて解説 ・自分で書いて実行して動作を試しながら学習できる ・アルゴリズムの使い方や考え方だけでなく、アルゴリズムの計算量について の理解も深まる 【扱うアルゴリズム】 FizzBuzz｜フィボナッチ数列｜線形探索｜二分探索｜幅優先探索｜ 深さ優先探索｜番兵｜8クイーン問題｜n-クイーン問題｜ハノイの塔｜ ミニマックス法｜選択ソート｜挿入ソート｜バブルソート｜ヒープソート｜ マージソート｜クイックソート｜最短経路問題｜ベルマン・フォード法｜ ダイクストラ法｜A*アルゴリズム｜文字列探索の力任せ法｜Boyer-Moore法｜ 逆ポーランド記法｜ユークリッドの互除法 【章構成】 ■第1章 Pythonの基本とデータ構造を知る ■第2章 基本的なプログラムを作ってみる ■第3章 計算量について学ぶ ■第4章 いろいろな探索方法を学ぶ ■第5章 データの並べ替えにかかる時間を比べる ■第6章 実務に役立つアルゴリズムを知る ■Appendix Pythonのインストール",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784798163239"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "4798163236"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 290,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.38.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4mzLDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4mzLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=4mzLDwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=4mzLDwAAQBAJ&dq=Python&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Python%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0.html?hl=&id=4mzLDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/Python%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0-sample-pdf.acsm?id=4mzLDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4mzLDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "時代が変わっても 変わらないアルゴリズムから考え方を学ぼう 本書は、初心者にも扱いやすいプログラミング言語「Python」を使用して、 ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "em_1DwAAQBAJ",
+      "etag": "UfO28O5zh8I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/em_1DwAAQBAJ",
+      "volumeInfo": {
+        "title": "マンガでざっくり学ぶPython（パイソン）",
+        "authors": [
+          "クジラ飛行机",
+          "バニラ",
+          "anco",
+          "トレンド・プロ"
+        ],
+        "publisher": "マイナビ出版",
+        "publishedDate": "2020-07-24",
+        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 「Pythonって人気だけど難しいんでしょ？」 いえいえそんなことはありません。Python（パイソン）は実は初心者にとって学びやすいプログラミング言語なのです。 本書は、Pythonを、プログラミングに関する知識が全くない状態から学ぶための入門書です。 マンガでPythonの文法の要となるところをやさしく学び、解説部分では手を動かしながらPythonをしっかり身に付けていけるような構成になっています。 Pythonの環境としてはGoogle Colaboratoryを使用しているので、ブラウザーさえあれば動かすことができます。高スペックのPCや、面倒なインストール作業は必要ありません。 まったく知識ゼロの状態から始めて、Pythonの基本的な文法を学び、最終的には複数のファイルからデータを読み込んで集計や計算するところまで進めていきます。 Pythonでかっこいいところを見せようと頑張る「春沢 進」と一緒に、楽しくやさしく学んでみましょう！",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:BT000082759100100101900209"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 260,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=em_1DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=em_1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=em_1DwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=em_1DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=em_1DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1749,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 1574,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=em_1DwAAQBAJ&rdid=book-em_1DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1749000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 1574000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A7%E3%81%96%E3%81%A3%E3%81%8F%E3%82%8A%E5%AD%A6%E3%81%B6Python_%E3%83%91-sample-epub.acsm?id=em_1DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A7%E3%81%96%E3%81%A3%E3%81%8F%E3%82%8A%E5%AD%A6%E3%81%B6Python_%E3%83%91-sample-pdf.acsm?id=em_1DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=em_1DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用など ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "tgCoDwAAQBAJ",
+      "etag": "dtedJ/whI2I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tgCoDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Pythonで体験してわかるアルゴリズムとデータ構造",
+        "authors": [
+          "西澤 弘毅",
+          "森田 光"
+        ],
+        "publisher": "近代科学社",
+        "publishedDate": "2018-06",
+        "description": "15の課題でアルゴリズムとデータ構造を学ぶ。各章の前半で具体的な事例から原理を理解する。確実に身につけるために各章に練習問題とその解答を配置。また後半ではPythonを使ってアルゴリズムのプログラムを組み、実際にどのように動くかを体験できる。 原理部分の理解と、プログラミング部分が分かれているので、原理が理解できていないのか、プログラムが理解できていないのかが、明確に区別できる。 【目次】 1．なぜアルゴリズムが重要か 2．アルゴリズムを表現する様々な方法 3．アルゴリズムを比べる方法 4．アルゴリズムを思いつく方法 5．アルゴリズムを改良するコツ 6．アルゴリズムを設計する方法 7．問題に適した設計法とは 8．設計法を応用した並べ替え 9．分割統治法によるソートの分類 10．データ構造はなぜ重要か 11．データ構造に依存したアルゴリズム 12．データ構造を応用した並べ替え 13．データ構造の変更に応じた改良 14．条件に応じた探索の改良 15．目的別のアルゴリズムとデータ構造 付録 Pythonを使うために！",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784764905702"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "4764905701"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 194,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tgCoDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tgCoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=tgCoDwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=tgCoDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tgCoDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2640,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 2376,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=tgCoDwAAQBAJ&rdid=book-tgCoDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2640000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 2376000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/Python%E3%81%A7%E4%BD%93%E9%A8%93%E3%81%97%E3%81%A6%E3%82%8F%E3%81%8B%E3%82%8B%E3%82%A2%E3%83%AB%E3%82%B4-sample-pdf.acsm?id=tgCoDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tgCoDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "15の課題でアルゴリズムとデータ構造を学ぶ。各章の前半で具体的な事例から原理を理解する。確実に身につけるために各章に練習問題とその解答を配置。また後半ではPythonを使 ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "WNXLEAAAQBAJ",
+      "etag": "l4+zM5qM6DU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WNXLEAAAQBAJ",
+      "volumeInfo": {
+        "title": "エキスパートPythonプログラミング 改訂4版",
+        "authors": [
+          "Ｔａｒｅｋ　Ｚｉａｄｅ",
+          "Michaｌ Jaworski"
+        ],
+        "publisher": "ドワンゴ",
+        "publishedDate": "2023-07-21",
+        "description": "Pythonプログラマ必読と言われるベストセラーが、最新のPython環境に合わせて全面改訂されました。今回の改訂では本書の構成を一から見直し、現代のPythonプログラマが身につけるべき技術・ノウハウを学びやすく、より身につけやすくしています。本書は、Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:04893111A15462600000"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 695,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=WNXLEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=WNXLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=WNXLEAAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=WNXLEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WNXLEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 4290,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 3861,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=WNXLEAAAQBAJ&rdid=book-WNXLEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 4290000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 3861000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88Python%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F-sample-epub.acsm?id=WNXLEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88Python%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F-sample-pdf.acsm?id=WNXLEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=WNXLEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Pythonプログラマ必読と言われるベストセラーが、最新のPython環境に合わせて全面改訂されました。今回の改訂では本書の構成を一から見直し、現代のPythonプログラマが身につける ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pJjeDwAAQBAJ",
+      "etag": "7C33QyEH9hg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pJjeDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Pythonトリック",
+        "authors": [
+          "Dan Bader"
+        ],
+        "publisher": "翔泳社",
+        "publishedDate": "2020-04-15",
+        "description": "Pythonプログラマなら身につけたい玄人技 本書は、 Dan Bader, \"Python Tricks The Book: A Buffet of Awesome Python Features\" dbader.org, の翻訳書です。 【本書の内容】 あらゆる場面で活躍するプログラミング言語、Python。 本書はそんなPythonをマスターし、日々のプログラミングに活用したい熱心な方々のための1冊です。 入門書を一通り終えた駆け出しプログラマには、Pythonの機能や特徴をより深く、 また他言語から新たにPython習得を目論むベテランには、コードの書き方の差異を、 リスト内包や文字列フォーマットなど、さまざまなサンプルを元に教授してくれます。 著者のDan Baderは、Twitterでのアウトプットに端を発する、いわゆるTips紹介の延長線上で、この本を執筆しました。 そのため、各種Tipsに対するさまざまなフィードバックと、よりよく伝えるためのアイデアが盛り込まれ、 結果、Pythonをより深く知り、より良いコードを書くための知識が集積された書籍となりました。 つまり本書は、もっとすごいPython開発者になりたいあなたを、 強力にサポートする1冊です。 【本書のポイント】 ・短いサンプルでPythonの一番すばらしい点を学べる ・Pythonならではの、すばらしい機能をビュッフェ形式で学べる ・Pythonプログラミングへの理解促進 【読者が得られること】 ・よりよいPythonプログラマとしての知見 ・効率的で実践的なPythonプログラミング ・コードをよりパイソニックなものにするためのノウハウ ※本電子書籍は同名出版物を底本として作成しました。記載内容は印刷出版当時のものです。 ※印刷出版再現のため電子書籍としては不要な情報を含んでいる場合があります。 ※印刷出版とは異なる表記・表現の場合があります。予めご了承ください。 ※プレビューにてお手持ちの電子端末での表示状態をご確認の上、商品をお買い求めください。 (翔泳社)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784798166810"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "4798166812"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 265,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.50.41.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pJjeDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pJjeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=pJjeDwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=pJjeDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=pJjeDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3080,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 2772,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=pJjeDwAAQBAJ&rdid=book-pJjeDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3080000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 2772000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/Python%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF-sample-epub.acsm?id=pJjeDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/Python%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF-sample-pdf.acsm?id=pJjeDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pJjeDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Pythonプログラマなら身につけたい玄人技 本書は、 Dan Bader, &quot;Python Tricks The Book: A Buffet of Awesome Python Features&quot; dbader.org, の翻訳書です。 【本書の内容】 ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "o323DwAAQBAJ",
+      "etag": "EDQCan0ItyU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/o323DwAAQBAJ",
+      "volumeInfo": {
+        "title": "ゼロからやさしくはじめるPython入門",
+        "authors": [
+          "クジラ飛行机"
+        ],
+        "publisher": "マイナビ出版",
+        "publishedDate": "2018-01-30",
+        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 これからPythonを始めたい人に、やさしく、楽しく、プログラミングを教えます！ 「最近よく聞くPythonってなんだろう？」 「プログラミングをやってみたいけど、どこから始めればいいかな？」 そんな風に思っている方にぴったりの1冊です。 本書は、Pythonに興味を持っている方や、プログラミングを始めてみたい方、プログラミングに興味のある学生さんに向けて、丁寧に、やさしく解説した本です。 プログラミングを学ぶ場合につまづきがちな環境構築はなるべく簡単なものを選び、簡単に始められるようにしています。 この本の特徴は「できた！」「動いた！」という感覚を積み重ねていけることです。すぐに動かせるサンプルを使いながら基本文法を学習できるようにし、「動かしながら学べる」ようにしています。 Pythonの入門書は画面にプログラムの結果を表示させるだけのものが多いですが、本書の後半では画面に円や四角を描画したり、ゲームを作ったりと、わくわくするような結果が得られるサンプルを用意しました。話題の機械学習にもチャレンジできます。 たとえばChapter 6では、プレイヤーをゴールまで連れて行く迷路ゲームや、車を操作するドライブゲームを作ります。自分で作ったゲームが動く喜びをぜひ味わってみてください。 Chapter 7では、花の画像の分類や、手書き文字の認識、自分で収集した画像の分類などを行います。機械学習の第1歩をぜひ体験してみてください。 本を読み終えたときにはきっと、「もっといろんなことができるようになりたい」と思ってもらえる、そんな1冊です。",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:BT000049371300100101900209"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 260,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.5.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=o323DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=o323DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=o323DwAAQBAJ&printsec=frontcover&dq=Python&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=o323DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=o323DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2541,
+          "currencyCode": "JPY"
+        },
+        "retailPrice": {
+          "amount": 2287,
+          "currencyCode": "JPY"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=o323DwAAQBAJ&rdid=book-o323DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2541000000,
+              "currencyCode": "JPY"
+            },
+            "retailPrice": {
+              "amountInMicros": 2287000000,
+              "currencyCode": "JPY"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%82%84%E3%81%95%E3%81%97%E3%81%8F%E3%81%AF%E3%81%98%E3%82%81%E3%82%8BPyth-sample-epub.acsm?id=o323DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%82%84%E3%81%95%E3%81%97%E3%81%8F%E3%81%AF%E3%81%98%E3%82%81%E3%82%8BPyth-sample-pdf.acsm?id=o323DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=o323DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用など ..."
+      }
+    }
+  ]
+}
