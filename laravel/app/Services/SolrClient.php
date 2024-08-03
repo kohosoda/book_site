@@ -11,11 +11,11 @@ class SolrClient
     /**
      * Description のベクトル検索
      * 
-     * @param string $id
+     * @param int $id
      * @param int $count
      * @return int[]
      */
-    public function searchSimlarBooks(string $id, int $count = 10): array
+    public function searchSimlarBooks(int $id, int $count = 10): array
     {
         // 対象 book のベクトル値を取得する
         $params = ['q' => 'id:' . $id, 'fl' => 'description_vector', 'wt' => 'json'];

@@ -22,7 +22,7 @@ class BookRepositoryTest extends TestCase
     }
 
     /**
-     * @test
+     * save メソッドのテスト
      */
     public function testSave(): void
     {
