@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-class BookViewModel
+class BookResponse
 {
 
     public function __construct(
@@ -18,6 +18,5 @@ class BookViewModel
         public readonly string $description,
         public readonly \DateTimeImmutable $createdAt,
         public readonly \DateTimeImmutable $updatedAt,
-    ) {
-    }
+    ) {}
 }

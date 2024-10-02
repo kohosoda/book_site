@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use App\Repository\BookQueryRepository;
 use App\Services\SolrClient;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class BookController extends Controller
 {

@@ -2,12 +2,12 @@
 
 namespace App\Repository;
 
-use App\Models\BookViewModel;
+use App\Models\BookResponse;
 use Illuminate\Support\Facades\DB;
 
 class BookQueryRepository
 {
-    public function find(string $id): ?BookViewModel
+    public function find(string $id): ?BookResponse
     {
         $books = $this->findMany([$id]);
         if (empty($books)) {
@@ -46,7 +46,7 @@ class BookQueryRepository
 
         $books = [];
         foreach ($rawBooks as $rawBook) {
-            $books[] = new BookViewModel(
+            $books[] = new BookResponse(
                 id: $rawBook->id,
                 googleId: $rawBook->google_id,
                 title: $rawBook->title,
